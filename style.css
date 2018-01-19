@@ -1,0 +1,270 @@
+@import url(link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet");
+.firstpage {
+	background-image: url("img/twitterbackground.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+	font-family: 'Open Sans', sans-serif;
+}
+/*header only*/
+#header1 {
+	margin : 0px ;
+	padding:13px;
+	background-color:white;
+	border-bottom:10px;
+	font-family: 'Open Sans', sans-serif;
+}
+/*This is to make my header work */
+#logo img {
+	float:left;
+	height:28px;
+	padding-left:350px;
+
+}
+#home {
+	float:left;
+padding-left:300px;
+}
+#about{
+	float:left;
+padding-left:300px;
+}
+/* language */
+#language {
+	float:right;
+	text-decoration: none;
+	color: #657786;
+	font-size: 13px;
+	font-weight:400;
+	margin-top:5px;
+	
+}
+#english {
+	float:right;
+	text-decoration: none;
+	color: #657786;
+	
+	font-size: 14px;
+	font-weight:700;
+	margin-top:5px;
+	
+	
+}
+/* menu */
+#menu ul {
+	list-style: none;
+	display: inline-block;
+
+}
+/*inline block inorder to put the menu with an existing border*/
+#menu  li{ 
+	float:left;
+}
+#menu ul li{
+	display: inline-block;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #657786;
+	padding: 20px;
+	font-size: 13px;
+	font-weight:800;
+}
+#menu ul li a:hover{
+	text-decoration: none;
+	color: #1da1f2;
+	padding: 20px;
+	font-size: 13px;
+-webkit-transition: background  1s ease-in-out;
+-moz-transition: background  1s ease-in-out;
+-ms-transition: background  1s ease-in-out;
+-o-transition: background  1s ease-in-out;
+transition: background 1s ease-in-out;}
+
+/* For website content */
+.welcome {
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 0px;
+	font-size: 27px;
+	font-weight: 600;
+	margin-left: 530px;
+	margin-top: 70px;
+   
+}
+.connect {
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 0px;
+	font-size: 21px;
+	font-weight:600;
+	margin-left:530px;
+	margin-top: 70px;
+
+}
+.artwork {
+	font-size:14px;
+	color: #FFFFFF;
+	font-weight:500;
+	margin-left:530px;
+	margin-top: 200px;
+
+}
+.tweetnphoto {
+
+	font-size:14px;
+	color: #FFFFFF;
+	font-weight:300;
+	margin-left:530px;
+	margin-top: 20px;
+	text-decoration:underline;
+
+
+}
+.date {
+	font-size:14px;
+	color: #FFFFFF;
+	font-weight:300;
+	margin-left:530px ;
+	text-decoration:underline; 
+}
+
+#footer {
+	color : #FFFFFF;
+	text-align: center;
+	margin-top: 100px;
+	font-size:12px;
+
+}
+/* Caret */
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-top: 10px;
+    margin-left: 2px;
+    vertical-align: top;
+    border-top: 4px solid #66757f;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    float:right;
+    margin-right: 370px;
+
+}
+/* THIS IS FOR THE SIGN UP FORM */
+
+
+.headercontainer{width:55%;margin:auto;}	
+
+.logo{float: left;
+}
+.lang{float:right;}
+
+
+nav ul li {
+	display: inline-block;
+	border-bottom: 1px solid #00aa00;
+	padding: 0 10px 0 10px;
+	}
+
+nav ul li a{
+	text-decoration: none;
+	font:bold 13px "Segoe UI",Arial,sans-serif ;
+	margin-bottom:300px;  
+	
+}
+
+nav ul li a img{
+	height: auto;
+	width: 30px ; 
+	
+}
+.login{
+	width: 840px;
+	height:300px;
+	background-color: #ffffff;
+	border: 1px solid #eeeeee;
+	position:absolute;
+	top: 8%;
+	left:22%;
+		}
+.upper{
+	width: 100%;
+	height:auto;
+	background-color: #ffffff;
+	padding:4% 0 0 15%;
+	box-sizing: border-box;
+}
+
+input{margin: 10px 10px 10px 0}
+
+input[type="text"],[type="password"]{
+		width: 40%;
+	    border: 1px solid #e6ecf0;
+		border-radius: 3px;
+		padding: 4px;
+		font-size: 14px;
+		color: #657786;
+}
+
+input[type="button"]{
+	background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 6px 16px;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+
+
+.lower{
+	width: 100%;
+	background-color: #f5f8fa;
+	color: #657786;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.lower p{
+	margin: 0 10px 10px 0;
+	padding:0 0 0 15%;
+	box-sizing: border-box;
+	color: #657786;
+	font-size: 14px;
+	}
+
+
+
+
+.homebackground{
+	width: 100%;
+	height: 100%;
+	background-image:url("img/JPASIA.jpg");
+	background-size: cover;
+}
+
+.homecontainer{
+width: 840px;
+	height:300px;
+	position:absolute;
+	top: 8%;
+	left:22%;
+
+}
+
+body{
+	background-color: #e6ecf0;
+	font-family: "Open Sans",Arial,sans-serif}
+
+header{
+	width: 100%;
+	height: 45px;
+	background-color:#ffffff;
+	border-bottom: 1px solid #aaaaaa;
+	
+	}
