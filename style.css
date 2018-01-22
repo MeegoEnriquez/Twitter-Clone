@@ -8,16 +8,18 @@
 /*header only*/
 #header1 {
 	margin : 0px ;
-	padding:13px;
+	padding:14px;
 	background-color:white;
 	border-bottom:10px;
 	font-family: 'Open Sans', sans-serif;
+
 }
 /*This is to make my header work */
 #logo img {
 	float:left;
 	height:28px;
 	padding-left:350px;
+
 
 }
 #home {
@@ -79,6 +81,7 @@ padding-left:300px;
 -ms-transition: background  1s ease-in-out;
 -o-transition: background  1s ease-in-out;
 transition: background 1s ease-in-out;}
+
 
 /* For website content */
 .welcome {
@@ -152,119 +155,135 @@ transition: background 1s ease-in-out;}
 }
 /* THIS IS FOR THE SIGN UP FORM */
 
-
-.headercontainer{width:55%;margin:auto;}	
-
-.logo{float: left;
-}
-.lang{float:right;}
-
-
-nav ul li {
-	display: inline-block;
-	border-bottom: 1px solid #00aa00;
-	padding: 0 10px 0 10px;
-	}
-
-nav ul li a{
-	text-decoration: none;
-	font:bold 13px "Segoe UI",Arial,sans-serif ;
-	margin-bottom:300px;  
-	
-}
-
-nav ul li a img{
-	height: auto;
-	width: 30px ; 
-	
-}
 .login{
-	width: 840px;
-	height:300px;
+	width: 296px;
+	height:99px;
 	background-color: #ffffff;
 	border: 1px solid #eeeeee;
 	position:absolute;
 	top: 8%;
 	left:22%;
+	margin-left:650px;
+	margin-top:30px;
 		}
 .upper{
-	width: 100%;
-	height:auto;
+	
 	background-color: #ffffff;
-	padding:4% 0 0 15%;
+	padding:10px 10px 10px 10px;
 	box-sizing: border-box;
+
 }
 
-input{margin: 10px 10px 10px 0}
+input{margin: 10px 10px 10px 10px}
 
-input[type="text"],[type="password"]{
-		width: 40%;
+input,[type="password"]{
+		width: 30%;
 	    border: 1px solid #e6ecf0;
 		border-radius: 3px;
-		padding: 4px;
-		font-size: 14px;
+		font-size: 15px;
 		color: #657786;
 }
 
-input[type="button"]{
-	background-color: #1da1f2;
+input[class="button"]{
+	background-color: #ffffff;
     border: 1px solid #1da1f2;
     border-radius: 100px;
     cursor: pointer;
     font-size: 14px;
     font-weight: bold;
     line-height: 20px;
-    padding: 6px 16px;
+   
     text-align: center;
-    color: #ffffff;
-    
+    color:#1da1f2;
+    float:right;
+
 }
 
 
-
-.lower{
-	width: 100%;
-	background-color: #f5f8fa;
-	color: #657786;
-	padding: 20px;
-	box-sizing: border-box;
+.phone {
+	width: 90%;
 }
 
-.lower p{
-	margin: 0 10px 10px 0;
-	padding:0 0 0 15%;
-	box-sizing: border-box;
+.password {
+	width: 50%;
+}
+.checkbox{
+	width:10px ;
+	height: 12px;
+}
+.remember{
+	font-size:11px;
+}
+/* second page changes */
+#header2 {
+	margin : 0px ;
+	padding:14px;
+	background-color:white;
+	border-bottom: 1px solid gray;
+	font-family: 'Open Sans', sans-serif;
+
+}
+#english2 {
+	float:right;
+	text-decoration: none;
 	color: #657786;
 	font-size: 14px;
-	}
-
-
-
-
-.homebackground{
-	width: 100%;
-	height: 100%;
-	background-image:url("img/JPASIA.jpg");
-	background-size: cover;
+	font-weight:500;
+	margin-top:5px;
 }
+#menu2 ul li a{
+	text-decoration: none;
+	color: #657786;
+	padding: 20px;
+	font-size: 16px;
+	font-weight:500;
+}
+#logo2 img {
+	float:left;
+	height:28px;
+	padding-left:600px;
 
-.homecontainer{
-width: 840px;
-	height:300px;
+
+}
+.caret2 {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-top: 10px;
+    margin-left: 2px;
+    vertical-align: top;
+    border-top: 4px solid #66757f;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    float:right;
+    margin-right: 700px;
+}
+/* second log in */
+
+.login2 {
+	width: 296px;
+	height:200	px;
+	background-color: #ffffff;
+	border: 1px solid #eeeeee;
 	position:absolute;
 	top: 8%;
 	left:22%;
+	margin-left:650px;
+	margin-top:200px;
+	padding:20px 20px 20px 20px;
+	box-sizing: border-box;
+		}
+		input[class="signup"]{
+	background-color: #1da1f2;
+    border: 1px solid #1da1f2;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+   width:170px;
+    text-align: center;
+    color:#FFFFFF;
+    float:right;
 
 }
-
-body{
-	background-color: #e6ecf0;
-	font-family: "Open Sans",Arial,sans-serif}
-
-header{
-	width: 100%;
-	height: 45px;
-	background-color:#ffffff;
-	border-bottom: 1px solid #aaaaaa;
-	
-	}
